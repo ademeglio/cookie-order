@@ -34,7 +34,7 @@ public class MasterOrder {
 	// Traverse and print the ArrayList
 	public void showOrder() {
 		for (CookieOrder order : orders) {
-			System.out.println(order);
+			System.out.println("Variety: " + order.getVariety() + " " + order.getNumBoxes() + " box(es) ordered.");
 		}
 	}
 
