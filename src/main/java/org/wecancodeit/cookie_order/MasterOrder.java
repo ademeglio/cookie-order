@@ -6,6 +6,11 @@ public class MasterOrder {
 		// TODO Auto-generated method stub
 		return 1;
 	}
+
+	public void addOrder(CookieOrder cookieOrder) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 }
