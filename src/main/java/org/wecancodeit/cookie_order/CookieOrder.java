@@ -6,11 +6,11 @@ public class CookieOrder {
 	
 	// constructor
 	public CookieOrder(String variety , int numBoxes) {
-		this.setVariety(variety);
-		this.setNumBoxes(numBoxes);
+		this.variety = variety;
+		this.numBoxes = numBoxes;
 	}
 
-	// getters
+	// getters (accessor)
 	public String getVariety() {
 		return variety;
 	}
