@@ -1,16 +1,24 @@
 package org.wecancodeit.cookie_order;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MasterOrder {
 
-	public int getTotalBoxes() {
-		// TODO Auto-generated method stub
-		return 1;
-	}
-
+	List<CookieOrder> orders = new ArrayList<>(); 
+	
 	public void addOrder(CookieOrder cookieOrder) {
-		// TODO Auto-generated method stub
-		
+		orders.add(cookieOrder);
 	}
 	
+	public int getTotalBoxes() {
+		int boxes = 0;
+		
+		for (CookieOrder orders : orders) {
+			boxes += orders.getNumBoxes();
+		}
+		return boxes;
+	}
+
 	
 }

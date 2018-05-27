@@ -17,6 +17,8 @@ public class MasterOrderTest {
 	@Test
 	public void shouldReturnTotalBoxesAsTwo() {
 		MasterOrder underTest = new MasterOrder();
+		underTest.addOrder(new CookieOrder("",1));
+		underTest.addOrder(new CookieOrder("",1));
 		int check = underTest.getTotalBoxes();
 		
 		assertEquals(2, check);
