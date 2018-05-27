@@ -1,3 +1,4 @@
+@19:04 in video
 # Girl Scout Cookie Order
 We have all been there, the irresistible face of a cute kid selling tasty cookies. They’re everywhere… at the store, knocking on the door, in the parking lot… Your objective is to create an ArrayList project that keeps track of the variety of cookie you ordered and the quantity. You will also keep track of your total number of boxes purchased. You are going to give the program the ability to remove a variety from the list just remember this may make the girl scout sad so please be kind.
 
