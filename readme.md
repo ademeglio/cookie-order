@@ -22,7 +22,8 @@ Create the constructor to handle this data and 2 accessor methods
 
 ## Example
 
-`Current Order
+```java
+Current Order
 Variety: Tagalongs Boxes: 1
 Variety: Thin Mints Boxes: 5
 Variety: Samoas Boxes: 2
@@ -36,7 +37,8 @@ You are removing 5 Thin Mints
 Current Order
 Variety: Tagalongs Boxes: 1
 Variety: Samoas Boxes: 2
-Variety: Tagalongs Boxes: 3`
+Variety: Tagalongs Boxes: 3
+```
 
 ## Stretch Task
   * Try doing live adds, removals and updates to your order, you will need a loop and some user input
