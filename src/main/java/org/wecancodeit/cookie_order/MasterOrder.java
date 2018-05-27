@@ -28,8 +28,15 @@ public class MasterOrder {
 			if (orders.get(i).getVariety().equals(variety)) {
 				orders.remove(i);
 			}
-		}
+		} 
 	} // end removeVariety()
+	
+	// Traverse and print the ArrayList
+	public void showOrder() {
+		for (CookieOrder order : orders) {
+			System.out.println(order);
+		}
+	}
 
 	
 } // end MasterOrder()
