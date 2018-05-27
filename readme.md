@@ -28,9 +28,9 @@ Variety: Tagalongs Boxes: 1
 Variety: Thin Mints Boxes: 5
 Variety: Samoas Boxes: 2
 Variety: Tagalongs Boxes: 3
-#
+
 You have ordered 11 boxes
-#
+
 What would you like to remove? (specify a variety or none)
 Thin Mints
 You are removing 5 Thin Mints
